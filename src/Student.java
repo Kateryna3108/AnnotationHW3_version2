@@ -1,12 +1,15 @@
 import java.io.Serializable;
 
-public class Student implements Serializable {
+public class Student {
 
-    @Save
+
     private String name;
     @Save
     private int age;
+    @Save
     private String group;
+//    @Save
+//    private Test test;
 
     public Student(String name, int age, String group) {
         this.name = name;
